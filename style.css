@@ -1,0 +1,23 @@
+body {
+	padding: 10px;
+	text-align: center;
+}
+button{
+    color:white;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: green;
+    border: 2px solid green;
+    width:250px;
+    height:60px;
+    cursor: pointer;
+    outline: 0!important;
+    text-align: center;  
+    border-radius: 25px;
+    transition: color .3s, background-color .3s;
+  	&:hover, &:active {
+        color: green;
+		background-color: #fff;
+	}
+}
+
